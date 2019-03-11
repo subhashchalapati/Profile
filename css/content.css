@@ -1,0 +1,67 @@
+/*rey read me 
+conetnt.css:-this is for content.html styles*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Mar, 2019, 11:53:18 AM
+    Author     : subha
+*/
+#ContentDivFlex{
+     display: flex;
+ justify-content:center;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+
+}
+
+#content{
+     /*flex:90%;*/
+    color: red;
+    width: 90%;
+    height: 585px;
+    border: dotted;
+    border-color: #01021c;
+     border-radius: 10px 10px 30px 10px;
+    
+    
+}
+
+#ContentDivFlex > #PushButtonR{
+    height: 90%;
+     position: fixed;
+     top: 10%;
+     right: 94.1%;
+    background: inherit;
+        color: red; 
+        border: none; 
+        font-size:90px;
+        /*background-color:#00000e;*/
+        
+/*            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 92.5%;
+            right: 0;  	
+            margin: auto;*/
+}
+#ContentDivFlex > #PushButtonL{
+    height: 90%;
+    position: fixed;
+     top: 10%;
+     left: 94%;
+    background: inherit;
+        color: red; 
+        border: none; 
+        font-size:90px;
+/*            position: absolute;
+            top: 50%;
+            bottom: auto;
+            right: 92.5%;
+            left: 0;  	
+            margin: auto;*/
+}
+

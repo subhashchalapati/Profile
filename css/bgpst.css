@@ -1,0 +1,26 @@
+/*Rey read me bjpst:-BackGround Page STyle*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 Feb, 2019, 3:34:25 PM
+    Author     : subha
+*/
+html{
+        background-image: url("../img/FullBg.jpg");
+        /*background-repeat:no-repeat;*/   
+        background-size: 100%;
+        
+/*        background-repeat:repeat-y;        background-repeat:repeat-x;*/
+
+/*        background-position: center;  Center the image */        /*background-size: 100%;*/
+        /*background-size: auto;*/
+}
+#fx{
+            display: flexbox;
+            flex-align: center;
+}
+

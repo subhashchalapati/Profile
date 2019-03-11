@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Mar, 2019, 8:32:13 PM
+    Author     : subha
+*/
+
+html,body{
+    border-color: black;
+    color: white;
+    overflow: hidden;
+     /*overflow-y: scroll;*/ 
+}
+body{
+/*       border-style: dotted;
+       border-radius: 20px;*/
+}
+.blinking{
+	animation:blinkingText 0.1s infinite;
+font-style: oblique;
+}
+@keyframes blinkingText{
+	0%{		color: red; font-style: italic; }
+	/*49%{	color: transparent;	}*/
+	20%{	color: inherit; font-style: italic; }
+	40%{	color: inherit; font-style: italic;	}
+	60%{	color: inherit; font-style: italic;	}
+	79%{	color: transparent; font-style: italic; /*content: "This text replaces the original.";*/ }
+	80%{	color: inherit; font-style: italic; }
+	100%{	color: inherit; font-style: italic; }
+}
+
+
+
+
+

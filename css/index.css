@@ -1,0 +1,57 @@
+/* Rey Read Me 
+index.ss:- This will import app assential css files and used in html(in link tag)
+pf:-ProFile pic */ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /* 
+    Created on : 24 Feb, 2019, 3:31:48 PM
+    Author     : subha
+*/
+@import "st.css";
+@import "bt1st.css";
+@import "bgpst.css";
+/*@import "HdrSt.css";*/
+html{
+    
+
+    color: white;
+    
+    }
+    #pf{
+          width: 10.2%;
+          height: auto;
+          padding-left: 20px;
+          padding-top: 20px;
+          border-radius: 50%;
+          border-right-color: red;
+          
+          
+
+
+    }
+    name{
+        padding-left: 50%;
+        padding-right: auto;
+        padding-top: 2px;       
+        /*alignment-adjust: middle;*/
+        
+    }
+    ::-webkit-scrollbar { 
+    display: none; 
+}
+#IndexCont2{
+       background: inherit;
+         width: 80%;
+         height: 80%;
+         border-radius: 120px 10px 30px 10px;
+        position: absolute;
+        top:100;
+        bottom: 0;
+        left: 0;
+        right: 0;  	
+        margin: auto;
+
+    
+}
+
