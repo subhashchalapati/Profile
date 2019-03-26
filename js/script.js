@@ -3,6 +3,8 @@
            
            function fun1(){
             var i='red';
-            document.getElementById('tt').style.color = i ;
+            var x=document.getElementById('tt');
+            x.style.color=i
+ 
         }
  

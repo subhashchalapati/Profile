@@ -21,19 +21,97 @@ body{
 .blinking{
 	animation:blinkingText 0.1s infinite;
 font-style: oblique;
+
 }
 @keyframes blinkingText{
 	0%{		color: red; font-style: italic; }
 	/*49%{	color: transparent;	}*/
 	20%{	color: inherit; font-style: italic; }
 	40%{	color: inherit; font-style: italic;	}
-	60%{	color: inherit; font-style: italic;	}
+	60%{	color: inherit; font-style: italic; 	}
 	79%{	color: transparent; font-style: italic; /*content: "This text replaces the original.";*/ }
 	80%{	color: inherit; font-style: italic; }
 	100%{	color: inherit; font-style: italic; }
 }
 
+/*copypast*/
+.blinking1{
+	animation:blinkingText1 0.1s infinite;
+font-style: oblique;
+animation-duration: 4s;
+}
+@keyframes blinkingText1{
+	1%{     color: transparent; font-style: italic; }
+	16%{     color: white; font-style: italic; }
+	/*49%{	color: transparent;	}*/
+	33%{	color: white; font-style: italic; }
+	49%{	color: white; font-style: italic;	}
+	66%{	color: white; font-style: italic;	}
+	83%{	color: white; font-style: italic; /*content: "This text replaces the original.";*/ }
+	100%{	color: white; font-style: italic; }
+	}
+.blinking2{
+	animation:blinkingText2 0.1s infinite;
+font-style: oblique;
+animation-duration: 4s;
+}
+@keyframes blinkingText2{
+        1%{     color: transparent; font-style: italic; }
+	16%{     color: transparent; font-style: italic; }
+	/*49%{	color: transparent;	}*/
+	33%{	color: white; font-style: italic; }
+	49%{	color: white; font-style: italic;	}
+	66%{	color: white; font-style: italic;	}
+	83%{	color: white; font-style: italic; /*content: "This text replaces the original.";*/ }
+	100%{	color: white; font-style: italic; }
+	}
+.blinking3{
+	animation:blinkingText3 0.1s infinite;
+font-style: oblique;
+animation-duration: 4s;
+}
+@keyframes blinkingText3{
+	1%{     color: transparent; font-style: italic; }
+	16%{     color: transparent; font-style: italic; }
+	/*49%{	color: transparent;	}*/
+	33%{	color: transparent; font-style: italic; }
+	49%{	color: white; font-style: italic;	}
+	66%{	color: white; font-style: italic;	}
+	83%{	color: white; font-style: italic; /*content: "This text replaces the original.";*/ }
+	100%{	color: white; font-style: italic; }
+	}
+.blinking4{
+	animation:blinkingText4 0.1s infinite;
+font-style: oblique;
+animation-duration: 4s;
+}
+@keyframes blinkingText4{
+	1%{     color: transparent; font-style: italic; }
+	16%{     color: transparent; font-style: italic; }
+	/*49%{	color: transparent;	}*/
+	33%{	color: transparent; font-style: italic; }
+	49%{	color: transparent; font-style: italic;	}
+	66%{	color: white; font-style: italic;	}
+	83%{	color: white; font-style: italic; /*content: "This text replaces the original.";*/ }
+	100%{	color: white; font-style: italic; }
+	}
+.blinking5{
+	animation:blinkingText5 0.1s infinite;
+font-style: oblique;
+animation-duration: 4s;
+}
+@keyframes blinkingText5{
+	1%{	color: transparent; font-style: italic; }
+	16%{	color: transparent; font-style: italic; }
+	/*49%{	color: transparent;	}*/
+	33%{	color: transparent; font-style: italic; }
+	49%{	color: transparent; font-style: italic;	}
+	66%{	color: transparent; font-style: italic;	}
+	83%{	color: white; font-style: italic; /*content: "This text replaces the original.";*/ }
+	100%{	color: white; font-style: italic; }
+	}
 
+/*copy past*/
 
 
 
